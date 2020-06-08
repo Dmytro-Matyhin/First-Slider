@@ -2,6 +2,10 @@
   max-width: 480px;
   height: 300px;
 }
+.second-swiper {
+  max-width: 480px;
+  height: 140px;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -31,5 +35,17 @@
   .swiper-container {
     max-width: 960px;
     height: 600px;
+  }
+}
+@media (min-width: 640px) {
+  .second-swiper {
+    max-width: 640px;
+    height: 195px;
+  }
+}
+@media (min-width: 960px) {
+  .second-swiper {
+    max-width: 960px;
+    height: 295px;
   }
 }

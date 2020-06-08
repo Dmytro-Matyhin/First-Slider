@@ -5,7 +5,7 @@ toggle[0].addEventListener("click", function(event) {
   this.classList.toggle("is-active");
 });
 
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.first-swiper', {
   cssMode: true,
   navigation: {
     nextEl: '.swiper-button-next',
@@ -17,3 +17,14 @@ const swiper = new Swiper('.swiper-container', {
   mousewheel: true,
   keyboard: true,
 });
+
+const swiperSecond = new Swiper('.second-swiper ', {
+  slidesPerView: 2,
+  spaceBetween: 30,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
