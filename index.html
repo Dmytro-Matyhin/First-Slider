@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="logo">
+          <img src="images/harley-wings.svg" alt="logo"/>
+        </a>
+        <nav class="navbar">
+          <ul class="navbar-nav">
+            <li class="is-active">
+              <a href="#">
+                Home Page
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Second Page
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                GitHub Page
+              </a>
+            </li>
+          </ul>
+          <a href="#" class="navbar-toggle">
+            <span></span>
+          </a>
+          <ul class="navbar-nav-mobile">
+            <li class="is-active">
+              <a href="#" class="nav-mobile-item">
+                Home Page
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-mobile-item">
+                Second Page
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-mobile-item">
+                GitHub Page
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <section class="section section-swiper">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure class="section-image">
+                <img src="images/bike.jpg" alt="bike"/>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="section-image">
+                <img src="images/bike-2.jpg" alt="bike-2"/>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="section-image">
+                <img src="images/bike-3.jpg" alt="bike-3"/>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="section-image">
+                <img src="images/bike-4.jpg" alt="bike-4"/>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="section-image">
+                <img src="images/bike-5.jpg" alt="bike-5"/>
+              </figure>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>    
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
